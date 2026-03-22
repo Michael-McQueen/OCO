@@ -1,0 +1,19 @@
+network:
+  name: oco_net
+  num_classes: '@{dataset.num_classes}'
+  image_size: 224
+  pretrained: False        
+  checkpoint: none
+  num_gpus: '@{num_gpus}'
+  # OCO-specific hyperparameters
+  num_slots: 6
+  slot_dim: 256
+  sa_iters: 3
+  token_dim: 768
+  freeze_backbone: True
+  backbone: dinov2_vitb14
+  dinosaur_checkpoint: dinov2_checkpoint_epoch_199.pt
+dataset:
+  image_size: 224
+ood_dataset:
+  image_size: 224
