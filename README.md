@@ -81,13 +81,10 @@ This codebase is built upon [OpenOOD](https://github.com/Jingkang50/OpenOOD). We
 
 If you find this work useful, please cite our paper.
 ```bibtex
-@misc{dai2026divideconquerobjectcooccurrence,
-      title={Divide and Conquer: Object Co-occurrence Helps Mitigate Simplicity Bias in OOD Detection}, 
-      author={Boyang Dai and Chaoqi Chen and Yizhou Yu},
-      year={2026},
-      eprint={2605.07821},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2605.07821}, 
+@article{dai2026divide,
+  title={Divide and Conquer: Object Co-occurrence Helps Mitigate Simplicity Bias in OOD Detection},
+  author={Dai, Boyang and Chen, Chaoqi and Yu, Yizhou},
+  journal={arXiv preprint arXiv:2605.07821},
+  year={2026}
 }
 ```
