@@ -1,8 +1,10 @@
-# Divide and Conquer: Object Co-occurrence Helps Mitigate Simplicity Bias in OOD Detection
+# Mitigating Simplicity Bias in OOD Detection through Object Co-occurrence Analysis
 
 This repository provides the official implementation of the paper:
 
-> **Divide and Conquer: Object Co-occurrence Helps Mitigate Simplicity Bias in OOD Detection** (CVPR 2026)
+> **Mitigating Simplicity Bias in OOD Detection through Object Co-occurrence Analysis** (CVPR 2026)
+
+([*Original Name*] Divide and Conquer: Object Co-occurrence Helps Mitigate Simplicity Bias in OOD Detection)
 
 OCO is an object-centric OOD detection method that leverages **O**bject **CO**-occurrence patterns and a divide-and-conquer scoring strategy to mitigate simplicity bias and improve both challenging and full-spectrum OOD detection. Below is the pipeline:
 
@@ -81,10 +83,12 @@ This codebase is built upon [OpenOOD](https://github.com/Jingkang50/OpenOOD). We
 
 If you find this work useful, please cite our paper.
 ```bibtex
-@article{dai2026divide,
-  title={Divide and Conquer: Object Co-occurrence Helps Mitigate Simplicity Bias in OOD Detection},
-  author={Dai, Boyang and Chen, Chaoqi and Yu, Yizhou},
-  journal={arXiv preprint arXiv:2605.07821},
-  year={2026}
+@InProceedings{Dai_2026_CVPR,
+    author    = {Dai, Boyang and Chen, Chaoqi and Yu, Yizhou},
+    title     = {Mitigating Simplicity Bias in OOD Detection through Object Co-occurrence Analysis},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {20345-20355}
 }
 ```
