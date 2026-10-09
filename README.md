@@ -83,7 +83,7 @@ This codebase is built upon [OpenOOD](https://github.com/Jingkang50/OpenOOD). We
 
 If you find this work useful, please cite our paper.
 ```bibtex
-@InProceedings{Dai_2026_CVPR,
+@InProceedings{dai2026oco,
     author    = {Dai, Boyang and Chen, Chaoqi and Yu, Yizhou},
     title     = {Mitigating Simplicity Bias in OOD Detection through Object Co-occurrence Analysis},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
